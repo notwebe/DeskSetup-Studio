@@ -1,0 +1,18 @@
+# Auto-normalize text files to LF in repository
+* text=auto
+
+# Mark 3D, texture, image, and font assets as binary so line endings are never modified
+*.glb binary
+*.gltf binary
+*.bin binary
+*.hdr binary
+*.exr binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ktx2 binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
